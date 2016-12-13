@@ -7,7 +7,7 @@ spectrums. A fourier transform converts the incoming music signal which is a fun
 a discrete fourier transform.
 This code utilises the FIX_FFT library to perform the FFT on music signal recieved through a 3.5mm audio jack. The Arduino combines and averages the left and right audio channels 
 using an analog pin. 8 values are read at a fixed interval and an FFT is performed on this array. The FFT returns two sets of values which corresponds to the 
-real and imaginary parts of the FFT. The magnitude is calculated trom these two sets. This magnitude is mapped to the brightness of LEDs. Different fuctions are 
+real and imaginary parts of the FFT. The magnitude is calculated from these two sets. This magnitude is mapped to the brightness of LEDs. Different fuctions are 
 written to use these values to generate patterns. Each of these fuctions visualises the music in different ways and these fuctions are called randomly to create a 
 dynamic visualisation.
  */
